@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gestor de Tareas</h1>
+      <input type="text" id="taskInput" placeholder="Nueva tarea" />
+      <button id="addTaskButton">Agregar Tarea</button>
+
+      <ul id="taskList"></ul>
+    </div>
+    <div class="div-button">
+      <div><button id="shareButton">Compartir Tareas</button></div>
+
+      <div>
+        <button id="installButton" style="display: none">Instalar App</button>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
